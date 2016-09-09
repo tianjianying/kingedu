@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>查校区</title>
+<link rel="stylesheet" type="text/css" href="style/common.css" />
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<style>
+	.small_header .nav_nav #school:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #BD00BE transparent;}	
+</style>
+</head>
+<body> 
+	<div class="small_header clearfix">
+			<div class="nav relative wrap clearfix">
+				<h1 class="logo fl clearfix">
+					<a href="" class="fl">新王牌</a>
+				</h1>
+				<div class="nav_nav">
+					<ul>
+						<li id="index"><a href="index.html" class="nav_index">首页</a></li>
+						<li id="know"><a href="understand.html">了解我</a></li>
+						<li id="small"><a href="small.html">小班化</a></li>
+						<li id="teacher"><a href="tes.html">比师资</a></li>
+						<li id="result"><a href="grade.html">看效果</a></li>
+						<li id="class"><a href="curriculum.html">选课程</a></li>
+						<li id="school"><a href="campus.html">查校区</a></li>
+						<li id="question"><a href="doubt.html">有疑问</a></li>
+					</ul>
+				</div>
+				<div class="fr phone">
+					<img src="images/phone.jpg"/>
+				</div>
+			</div>
+			</div>
+<!--campus header start-->
+<div class="campus_header">
+  <div class="wrap">
+	<img src="images/campus_banner.jpg">
+  </div>
+</div>
+<!--campus header end-->
+<!--campus title start-->
+<div class="understand_title valignC">
+  <h2><span>全国中小学培训领先品牌</span></h2>
+</div>
+<!--campus title end-->
+<!--campus content start-->
+<div class="campus_content wrap  clearfix">
+	<div class="campus_img fl">
+		<img src="images/campus_1.jpg"/>
+		<p>全国城市布局（北京、上海、杭州、南京、合肥、广州、深圳、武汉）</p>
+	</div>
+	<div class="campus_img fr">
+		<img src="images/campus_2.jpg"/>
+		<p>广州校区分布</p>
+	</div>
+</div>
+<div class="campus_region wrap clearfix">
+  <h3 class="col_orange">广州新王牌</h3>
+  <div class="fl">
+  <div class="specific">
+  	<h4>越秀</h4>
+  	<p>杨箕校区：中山一路51号拓业大厦前座301室 </p>
+  	<p>电话：020-87352655</p>
+  </div>
+  <div class="specific">
+  	<h4>天河</h4>
+  	<p>岗顶校区（筹）： 天河区天河路岗顶地铁口C出</p>
+  	<p>电话：020-87352855</p>
+  </div>
+  <div class="specific">
+  	<h4>白云</h4>
+  	<p>机场路校区（筹）：机场高速远景路口</p>
+  	<p>电话：020-87359090</p>
+  </div>
+  </div>
+  <div class="fr">
+  <div class="specific">
+  	<h4>荔湾</h4>
+  	<p>中山八校区：中山八路23号富力商贸大厦402室</p>
+  	<p>电话：020-81193580</p>
+  </div>
+  <div class="specific">
+  	<h4>海珠</h4>
+  	<p>鹭江校区（筹）：海珠区新港西路敦和路路口  </p>
+  	<p>电话：020-81193306</p>
+  	<p>昌岗校区（筹）：海珠区江南大道中路昌岗中路路口</p>
+  	<p>电话：020-81193983</p>
+  </div>
+  </div>
+</div>
+<!--campus content end-->
+ <!--footer strat-->
+	<div class="footer">
+	  <p class="valignC">© 2005-2016 广州新王牌 官方网站：http://gz.xwp.com 官方电话：400-000-2802  </p>
+	</div>
+  <!--/.footer end-->
+    	<script type="text/javascript" src="js/jquery-1.12.3.min.js" ></script>
+  	<script type="text/javascript">
+				$(function(){
+					$(".small_header .nav_nav li").mouseover(function(){
+						$(this).addClass("show");
+					}).mouseout(function(){
+						$(this).removeClass("show");
+					});
+				});
+			</script>
+</body>
+</html>

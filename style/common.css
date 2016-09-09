@@ -1,0 +1,185 @@
+body,ul,dl,dd,h1,h2,h3,h4,h5,h6,p,table,hr{margin:0;padding:0;}
+/*reset end*/
+body{font:14px "微软雅黑";line-height: 1.8;color:#666;}
+a{text-decoration: none;color:#666;}
+button{font-family: "微软雅黑";cursor: pointer;}
+ul{list-style: none;}
+img{border: 0;}
+hr{border-bottom: 1px solid #e5e5e5;border-top:none;}
+th{background-color: #ff9d33;font-weight: normal;}
+i{display:inline-block;font-style:normal;}
+h2{font-size:24px;color: #fc4f0b;font-weight: normal;}
+h3{font-size:22px;color: #fa6016;font-weight: normal;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{content: "\200B";display: block;height: 0;clear: both;}
+.clearfix{*zoom: 1;}
+.valignC{text-align: center;}
+.valignM{vertical-align: middle;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.col_orange{color: #fc4f0b;}
+.wrap{width: 1100px;margin: 0 auto;}
+/*common end*/
+.footer{background-color:#e5e5e5;height:80px;}
+.footer p{line-height:80px; font-size:12px;}
+/*footer end*/
+
+.small_header .logo{padding-bottom: 80px;}
+.small_header .phone{padding:29px 26px 0 0;}
+.small_header .logo a{background:url(../images/logo.jpg) no-repeat;width:298px;height:81px;display:block;text-indent:-9999px;margin-top:45px;}
+.small_header .index_logo a{background-image:url(../images/index_03.jpg);}
+.small_header .nav_nav{height:90px;}
+.small_header .nav_nav li{float: left;box-shadow: 1px 2px 2px #888;cursor: pointer;}
+.small_header .nav_nav .nav_index{
+									position: absolute;
+									top: -66px;
+									left: 30px;
+									color: #fff;
+									transform:skew(-37deg);	
+									-webkit-transform:skew(-37deg);
+									}
+.small_header .nav_nav a{
+									color: #fff;
+									display: block;
+									padding-left: 14px;
+									line-height: 67px;
+									width:100px;
+									height:75px;
+									transform:skew(20deg);	
+									 -webkit-transform:skew(20deg);
+									}
+.small_header  #index{ content: "";			   
+								    position: absolute;
+								    top: -36px;
+								    left: 225px;
+								    transform: scale(1.2) translateX(134px) translateY(36px) skew(37deg);
+								    width: 79px;
+								    border-width: 66px 75px 0 0;
+								    border-style: solid;
+								    border-color: #FE0000 transparent;
+								    }	
+                    #index.show:after {
+				    content: "";			   
+				    position: absolute;
+				    top: -39px;
+				    left: -146px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(5deg);
+				    width: 56px;
+				    border-width: 11px 13px 0 0;
+				    border-style: solid;
+				    border-color: #fe0002 transparent;
+				    }	
+#small{
+					display: block;
+					width: 69px;
+				    height: 67px;
+				    position:absolute;
+				    top: -47px;
+				    left: 132px;
+				    background: #821789;
+				    -webkit-transform: skew(30deg);
+				    -moz-transform: skew(30deg);
+				    -o-transform: skew(30deg);
+					    transform: scale(1.2) translateX(390px) translateY(45px) skew(159deg);
+				    }	
+				    
+#small.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #821789 transparent;}					    
+#know,#teacher,#result,#class,#school,#question{
+									display: block;
+									width: 69px;
+								    height: 67px;
+								    position: absolute;
+								    top: -48px;
+								    left: 49px;
+								    background: #FF7F00;
+								    -webkit-transform: skew(30deg);
+								    -moz-transform: skew(30deg);
+								    -o-transform: skew(30deg);
+									    transform: scale(1.2) translateX(390px) translateY(45px) skew(159deg);
+									    }	
+.small_header .nav_nav #teacher{left:215px;background: #0950A2;}			
+.small_header .nav_nav #result{left:298px; background: #34B4D1;}	
+.small_header .nav_nav #class{left: 381px;background: #34A12E;}	
+.small_header .nav_nav #school{left:464px; background: #BD00BE;}	
+.small_header .nav_nav #question	{left:547px; background: #F1037F;}	
+.small_header .nav_nav #know.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #FF7F00 transparent;}		
+.small_header .nav_nav #teacher.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #0950A2 transparent;}		
+.small_header .nav_nav #result.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #34B4D1 transparent;}		
+.small_header .nav_nav #class.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #34A12E transparent;}		
+.small_header .nav_nav #school.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #BD00BE transparent;}	
+.small_header .nav_nav #question.show:after{
+					
+					content: "";			   
+				    position: absolute;
+				    top: 31px;
+				    left: -140px;
+				    transform: scale(1.2) translateX(128px) translateY(30px) skew(62deg);
+				    width: 44px;
+				    border-width: 8px 15px 0 0;
+				    border-style: solid;
+				    border-color: #F1037F transparent;}		
+				    #small.show:after,#know.show:after,#teacher.show:after,#result.show:after,#class.show:after,#school.show:after,#question.show:after{
+				    	display:block;
+				    }	
+/*small_header*/            
